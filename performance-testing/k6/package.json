@@ -1,0 +1,10 @@
+
+{
+  "name": "k6-scripts",
+  "version": "1.0.0",
+  "description": "this is pdax performance testing scripts",
+  "main": "index.js",
+  "author": "Lemuel Buitre",
+  "license": "ABC"
+
+}
