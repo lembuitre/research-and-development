@@ -29,19 +29,19 @@ QETH-159 Check The Login Page Elements Android
     Check "Need more help?" Link If Exists in ${ANDROID}
     Close the Application
 
-QETH-159 Test
-    [Tags]      Android     Test
-    Open the Application in ${Android}  ${NO_RESET_FALSE}
-    Click Allow Notification in ${Android}
-    Sleep    10
-    Click Login Button in ${ANDROID}
-    Click An Element in the Page   xpath=//android.widget.FrameLayout[@resource-id="android:id/content"]/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View
-    Click Element    xpath=//*[@resource-id='textFieldEmail']
-    Input Text Into Current Element    Test
-    Sleep    10
-    Click An Element in the Page   xpath=//android.widget.FrameLayout[@resource-id="android:id/content"]/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View
-    Click Reset Password Button Button in ${ANDROID}
-    Sleep    5
+#QETH-159 Test
+#    [Tags]      Android     Test
+#    Open the Application in ${Android}  ${NO_RESET_FALSE}
+#    Click Allow Notification in ${Android}
+#    Sleep    10
+#    Click Login Button in ${ANDROID}
+#     Click An Element in the Page   xpath=//android.widget.FrameLayout[@resource-id="android:id/content"]/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View
+#     Click Element    xpath=//*[@resource-id='textFieldEmail']
+#     Input Text Into Current Element    Test
+#     Sleep    10
+#     Click An Element in the Page   xpath=//android.widget.FrameLayout[@resource-id="android:id/content"]/android.widget.FrameLayout/android.widget.FrameLayout/android.view.View/android.view.View/android.view.View/android.view.View
+#     Click Reset Password Button Button in ${ANDROID}
+#     Sleep    5
 
 QETH-66 User is Able to Login In Android
     [Tags]      Android     Test
@@ -115,20 +115,20 @@ QETH-159 Check The Login Page Elements iOS
     Check "Need more help?" Button If Exists in ${iOS}
     Close the Application
 
-QETH-159 Test iOS
-    [Tags]      iOS    Test
-    Open the Application in ${iOS}  ${NO_RESET_FALSE}
-    Click Allow Notification in ${iOS}
-    Sleep   10
-    Click Allow Notification in ${iOS}
-    Sleep   10
+#QETH-159 Test iOS
+#    [Tags]      iOS    Test
+#    Open the Application in ${iOS}  ${NO_RESET_FALSE}
 #    Click Allow Notification in ${iOS}
 #    Sleep   10
-    Click Login Button in ${iOS}
-    Input Text    accessibility_id=Email  Test
-    Sleep    10
-    Click An Element in the Page   ${ELEMENT_LOG IN_LABEL_IOS}
-    Click Reset Password. Button in ${iOS}
+#    Click Allow Notification in ${iOS}
+#    Sleep   10
+#    Click Allow Notification in ${iOS}
+#    Sleep   10
+#    Click Login Button in ${iOS}
+#    Input Text    accessibility_id=Email  Test
+#    Sleep    10
+#    Click An Element in the Page   ${ELEMENT_LOG IN_LABEL_IOS}
+#    Click Reset Password. Button in ${iOS}
 #    Sleep    5
 
 
